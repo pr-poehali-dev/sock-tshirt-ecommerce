@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { 
   Facebook, 
   Instagram, 
-  Telegram, 
+  Send, 
   Mail, 
   Phone, 
   MapPin 
@@ -29,7 +29,7 @@ const Footer = () => {
                 <Instagram size={20} />
               </a>
               <a href="#" className="text-gray-400 hover:text-white">
-                <Telegram size={20} />
+                <Send size={20} />
               </a>
             </div>
           </div>
